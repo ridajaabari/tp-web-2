@@ -1,0 +1,53 @@
+h1{
+  color: green;
+  text-align: center;
+
+}
+body{
+    background-color: rgb(226, 221, 221);
+    font-weight: bold;
+}
+.container{
+    width: 650px;
+    height: 200px;
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px black;
+    font-weight: bolD;
+}
+button{
+   background-color: green;
+   color: white;
+   cursor: pointer;
+   width: 30%;
+   height: 40PX;
+   font-weight: bold;
+   border-style: none;
+    margin: 1px 1px;
+   border-radius: 10px;
+   border: 3px solid green;
+   transition: all .3s ease-in-out;
+}
+
+button:hover {
+    background-color: white;
+    color: green;
+    border: 3px solid green;
+    transition: all .3s ease-in-out;
+}
+
+input{
+   margin-left: 1px;
+   margin-top: 50px;
+    width: 200px;
+    padding: 4px;
+}
+.invalid{
+    color: red;
+    display: none;
+}
+.valid{
+    color: green;
+    display: none;
+}

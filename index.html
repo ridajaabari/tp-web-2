@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset> 
+        <legend> formulaire de inscription </legend>
+        <label for="">Nom complet :</label>
+        <input type="text" maxlength="100" pattern="[A-Za-z]{0,8} [A-Za-z]{0,8} [A-Za-z]{0,8}"><br>
+
+        <label for=""> adresse e mail:</label>
+        <input type="email" maxlength="100" pattern="[A-Za-z][0-9][@][uca][.][ac][.][ma]"><br>
+        <label for="">mot de passe:</label>
+        <input type="password"minlength="8" pattern="[A-Z]{1,8}[1-9]"><BR></BR>
+        <label for="">numero de telephone:</label>
+        <input type="tel" pattern=[2][1][2][1-9]{1-9}><br>
+        <label for="">date de naissance:</label>
+        <input type="date" max="1-1-2006"><br>
+        <label for="">genre</label>
+        <select name="" id="">
+            <option value="">selectionnez un genre</option>
+            <option value="">hommme</option>
+            <option value="">femme</option>
+        </select><br>
+        <label for="">competences:</label>
+    <select name="" id="">
+        <option value="">HTML</option>
+         <option value="">CSS</option>
+        <option value="">JAVASCRIPT</option>
+        <option value="">PYTHON</option>
+    </select><br>
+    <label for="">centre d interet: </label>
+    <input type="checkbox">sport
+    <input type="checkbox">musique
+    <input type="checkbox">lecture <br>
+    <label for="">site web :</label>
+    <input type=""><br>
+    <label for="">biographie:</label>
+    
+<textarea name="" id="" axlength="500" placeholder="parlez nous un peu de vous"></textarea><br>
+souhaitez-vous recevoir notre newsletter <input type="checkbox"><br>
+telecharger votre photo de profil <strong>(JPEG ,PNG)</strong>:
+<input type=""placeholder="choose file">No file chosen le fichier ne doit pas depasser 2MO <br>
+<input type="text" name="" id=""placeholder="s inscrire">
+</fieldset>
+</body>
+</html>
+
